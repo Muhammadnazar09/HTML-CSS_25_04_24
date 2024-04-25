@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kaloni {
+    background: rgb(106, 103, 103);
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: white;
+}
+
+/* _________________________ */
+
+.section1 {
+    background: rgb(222, 222, 222);
+}
+
+.all {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all .left p {
+    margin: 20px 0;
+    width: 80%;
+}
+
+.all .right p {
+    position: relative;
+    top: -40px;
+    width: 80%;
+    text-align: center;
+}
+
+.rang {
+    padding: 10px;
+}
+
+.section2 {
+    background: rgb(184, 180, 180);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section2 img {
+    width: 80%;
+}
+
+.right1 p {
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+
+.left1 {
+    width: 50%;
+}
+
+.right1 {
+    padding-left: 80px;
+}
+
+.left1 h1 {
+    padding-bottom: 20px;
+}
+
+/* __________________________ */
+
+.section3 {
+    background: rgb(222, 222, 222);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.flexbox {
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: -40px;
+}
+
+.cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 3px 3px 5px 1px rgb(162, 160, 160);
+    border-radius: 5px;
+}
+
+.card img {
+    padding: 20px 0;
+}
+
+span {
+    background-color: rgb(65, 65, 206);
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ______________________________ */
+.section4 {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.section4 h1 {
+    margin-bottom: 20px;
+}
+
+.asli {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asli img {
+    width: 250px;
+}
+
+.asli h3 {
+    width: 200px;
+    margin: auto;
+}
+
+.asli p {
+    width: 200px;
+    margin: auto;
+}
+
+.card1 h3 {
+    position: relative;
+    top: -20px;
+    font-size: 18px;
+}
+
+/* __________________________ */
+.footer {
+    background-color: black;
+}
+
+.footer p {
+    color: gray;
+    padding: 20px 0;
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.05);
+
+    .navbar {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .bain {
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bain a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .bain p a {
+            color: rgba(103, 186, 48, 1);
+        }
+    }
+
+    .navbar img {
+        width: 10%;
+        height: 40px;
+    }
+
+    .navbar button {
+        background-color: rgba(103, 186, 48, 1);
+        border: 0;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .navbar button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .navbar button i {
+        padding-right: 5px;
+    }
+
+    .pinhon i {
+        display: none;
+    }
+}
+
+.section2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    height: 585px;
+    background-repeat: no-repeat;
+    background-image: url(./backraund.png);
+
+    .photo {
+        width: 60%;
+        margin: auto;
+        padding-top: 150px;
+        font-size: 25px;
+
+        .input {
+            width: 40%;
+            display: flex;
+        }
+
+        .input input {
+            border: 0;
+            padding: 10px 20px;
+            border: 1px solid rgba(103, 186, 48, 1);
+
+        }
+
+        .input button {
+            background-color: rgba(103, 186, 48, 1);
+            padding: 10px 20px;
+            border: 0;
+            color: white;
+            padding-right: -10px;
+        }
+
+        .input button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .input button i {
+            padding-right: 5px;
+        }
+    }
+
+    .photo h3 {
+        padding: 25px 0;
+        font-size: 25px;
+        color: rgb(167, 167, 167);
+    }
+
+    .photo p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .par {
+        padding-top: 30px;
+    }
+}
+
+.section3 {
+    padding: 40px 0;
+    width: 100%;
+    margin: auto;
+
+    .first {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .first button {
+        font-size: 12px;
+        padding: 3px 20px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid rgba(103, 186, 48, 1);
+        color: rgba(103, 186, 48, 1);
+    }
+
+    .suratho {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .suratho img {
+        width: 26%;
+    }
+}
+
+.section4 {
+    width: 100%;
+    margin: auto;
+    margin-top: -20px;
+    .firstin {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .firstin button {
+        font-size: 12px;
+        padding: 3px 20px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid rgba(103, 186, 48, 1);
+        color: rgba(103, 186, 48, 1);
+    }
+    .ollbig{
+        width: 94%;
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        // gap: 40px;
+        // background-color: aqua;
+        padding-left: 25px;
+        .big{
+            // padding-left: 20px;
+            width: 43%;
+            margin: auto;
+            border:1px solid rgb(233, 232, 232);
+            padding: 30px;
+            border-radius: 10px;
+            .onkol{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+            .ulho{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+            }
+        }
+    }
+    .buttono{
+        border: 1px solid rgb(226, 223, 223);
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    .buttono1{
+        background-color: rgba(243, 248, 239, 1);
+    }
+    .buttono button{
+        border: 0;
+        background-color: white;
+        color: rgba(103, 186, 48, 1);
+    }
+}
+.section5{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(243, 248, 239, 1);
+    top: 50px;
+    .kalon{
+        margin-top: 100px;
+        width: 96%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 22px;
+        padding-bottom: 50px;
+        .ollhome{
+            border-radius: 10px;
+            border: 1px solid rgb(230, 225, 225);
+            width: 25%;
+            margin: auto;
+            background-color: white;
+            // background-color: aqua;
+            padding: 40px 30px;
+            .home{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            .homevor h3{
+                color: rgba(103, 186, 48, 1);
+            }
+            .h5i{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 0;
+                align-items: center;
+                .inho{
+                    padding-right: 25px;
+                }
+            }
+            .h5i i{
+                font-size: 10px;
+            }
+            .otin{
+                border: 1px solid rgba(103, 186, 48, 1);
+                padding: 10px 0;
+                text-align: center;
+                margin-top: 40px;
+            }
+            .otin button{
+                border: 0;
+                background-color: white;
+                color: rgba(103, 186, 48, 1);
+            }
+            .otino{
+                border: 1px solid rgba(103, 186, 48, 1);
+                padding: 10px 0;
+                text-align: center;
+                background-color: rgba(103, 186, 48, 1);
+            }
+            .otino button{
+                border: 0;
+                background-color:rgba(103, 186, 48, 1);
+                color: white;
+            }
+        }
+        .ollhome p{
+            font-size: 14px;
+        }
+    }
+}
+.section5 h1{
+    text-align: center;
+    padding: 40px 0;
+}
+.section6{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(47, 47, 47, 1);
+    .sanavbar{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        gap: 25px;
+        .mobain{
+            display: flex;
+            gap: 15px;
+        }
+        .mobain a{
+            text-decoration: none;
+            color: white;
+        }
+        .albain i{
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+}

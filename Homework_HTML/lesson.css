@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sarlavha{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(207, 203, 203);
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+}
+.sarlavhacha{
+    width: 83%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.sarlavhacha img{
+    width: 80px;
+    padding-right: 40px;
+}
+.iconca i{
+    padding-right: 10px;
+    align-items: center;
+    width: 15px;
+}
+
+.sl{
+    width: 70%;
+    align-items: center;
+}
+.sl a{
+    text-decoration: none;
+    color: black;
+    padding-left: 45px;
+}
+/* _______________________________ */
+
+.asosi{
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.asli{
+    width: 35%;
+
+}
+.asli h2{
+    color: #EE4248;;
+    font-size: 30px;
+}
+.asli p{
+    padding: 25px  0;
+}
+button{
+    background-color: #EE4248;;
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(106, 101, 101);
+    color: rgb(17, 17, 17);
+}
+/* _________________ */
+.asosi1{
+    background-color: #F6F6F6;
+    padding: 50px 0;
+    width: 100%;
+}
+.asosi2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.asosi2 img{
+    margin-top: -75px;
+}
+.asli1{
+    width: 45%;
+
+}
+.asli1 h1{
+    font-size: 35px;
+}
+.asli1h2{
+    color: #EE4248;;
+    font-size: 35px;
+}
+.asli1 p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+span{
+    color: #EE4248;
+}
+/* ________________________________________ */
+
+.menu{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.menu h1{
+    text-align: center;
+    padding: 50px;
+}
+.munudu{
+    display: flex;
+    gap: 40px;
+}
+.menud h2{
+    color:#EE4248;
+    padding: 15px 0;
+    font-size: 25px;
+}
+.menud p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+/* _______________________________ */
+
+.section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 80px;
+}
+.section img{
+    width: 80px;
+    margin-top: -10px;
+}
+.section1{
+    padding-right: 40px;
+}
+.section1 h3{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.section1 p{
+    color: #263238;
+    font-size: 15px;
+}
+.section2 h2{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.section2 p{
+    color: #263238;
+    font-size: 15px;
+}
+/* _________________________________ */
+.end{
+    width: 100%;
+    background-color:#EE4248;
+    color: white;
+    margin-top: 15px;
+    padding: 20px 0;
+    text-align: center;
+}

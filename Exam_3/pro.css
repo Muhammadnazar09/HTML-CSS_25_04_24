@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sarlavha{
+    margin: 0;
+    width: 100%;
+    background-color: #939878;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sarlavha img{
+    position:sticky;
+    left: 95%;
+    
+}
+.sarlavha p{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+/* ______________________________________ */
+
+.sarlavha1{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(207, 203, 203);
+    padding: 20px 0;
+}
+.sarlavhacha1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.sarlavhacha1 img{
+    width: 80px;
+    padding-right: 40px;
+}
+
+.sl{
+    align-items: center;
+    display: flex;
+}
+.sl a{
+    text-decoration: none;
+    color: black;
+    padding-left: 45px;
+}
+.slm{
+    font-size: 12px;
+    padding-left: 39px;
+    margin-right: -40px;
+}
+.sl2{
+   margin: 0 30px;
+   display: flex;
+   box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+   padding: 5px;
+   border-radius: 3px;
+}
+.sl2 img{
+    width: 15px;
+    margin-right: -25px;
+}
+.sl button{
+    padding: 5px;
+    background-color: #CF6F49;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+.sl button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+/* __________________________________ */
+.section{
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sar{
+    width: 30%;
+    margin: auto;
+}
+.sar i{
+    position: relative;
+    right: 225px;
+}
+.sar span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.sar h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.sar p{
+    color: #65665C;
+    padding-bottom: 20px;
+}
+.sar input{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.sar button{
+    background-color: #CF6F49;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.sar button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+/* ________________________________ */
+
+.kala{
+    width: 100%;
+    margin: auto;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+.section1 img{
+    width: 100px;
+    padding: 0 15px;
+}
+.section1 p{
+    width: 20%;
+}
+/* __________________________ */
+.leksi{
+    text-align: center;
+    padding-top: 60px;
+}
+.leksi h1{
+    padding-bottom: 15px;
+}
+/* __________________________________ */
+
+.dorost{
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.doro{
+    padding: 35px;
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    border-radius: 10px;
+}
+.doro h3{
+    padding: 15px 0;
+}
+/* ________________________________ */
+.section2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+.sar2{
+    width: 40%;
+}
+
+.sar2 span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.sar2 h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.sar2 p{
+    color: #65665C;
+    padding-bottom: 20px;
+}
+.sar2 button{
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    color: black;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.sar2 button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+.sur2 img{
+    width: 500px;
+}
+/* _______________________________ */
+
+.section3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+    margin-top: -40px;
+}
+.sar3{
+    width: 40%;
+}
+
+.sar3 span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.sar3 h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.sar3 p{
+    color: #65665C;
+    padding-bottom: 20px;
+}
+.sar3 button{
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    color: black;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.sar3 button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+.sur3 img{
+    width: 500px;
+}
+.balo{
+    display: flex;
+    gap: 20px;
+}
+.balo1 h3{
+    padding: 15px 0;
+}
+/* _____________________________________ */
+.positiv{
+    background-color: #F5F5F2;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.positiv span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+/* _________________________________ */
+
+.posit1{
+    padding: 15px;
+}
+.bot{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.posit img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.posit1 i{
+    padding-right: 8px;
+}
+.van{
+    display: flex;
+    padding: 12px 0;
+}
+.van2{
+    display: flex;
+}
+.van3{
+    padding: 0 15px;
+    display: flex;
+}
+.van4{
+    display: flex;
+    padding-bottom: 10px;
+}
+.vana{
+    display: flex;
+}
+.posit{
+    margin-top: 40px;
+    width: 30%;
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    border-radius: 10px;
+}
+
+.positel{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* _________________________ */
+
+.positel1{
+    background-color: #F5F5F2;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.positel1 button{
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    color: black;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.positel1 button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+.positel1 span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+/* _______________________________ */
+.pont{
+    width: 100%;
+    margin: auto;
+    background-color: #F5F5F2;
+    padding: 60px 0;
+}
+.text{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.text p{
+    padding: 15px 0;
+}
+.pontan{
+    padding-top: 35px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.pontani{
+    padding: 25px;
+    padding-right: 25px;
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    width: 30%;
+    border-radius: 10px;
+}
+/* _______________________________________ */
+.menu{
+    width: 100%;
+    margin-top: -40px;
+    background-color: #F5F5F2;
+}
+.mini{
+    width: 80%;margin: auto;
+    background-color: #65665C;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+}
+.mini h1{
+    padding: 15px 0;
+}
+.mini p{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+.mini button{
+    background-color: #CF6F49;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.mini button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+/* _______________________ */
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.sanavbar{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.sanavbar p{
+    padding: 15px 0;
+}
+.zinavbar{
+    width: 26%;
+    height: 220px;
+    gap: 10px;
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+}
+.zinavbar p{
+    padding: 15px 0;
+}
+.aksnavbar{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    text-align: center;
+}
+.aksnavbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.zinavbar1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+/* _______________________________ */
+
+.center{
+    background-color: #F5F5F2;
+    width: 100%;
+    margin: auto;
+    padding: 70px 0;
+}
+.centry{
+    width: 80%;
+    margin: auto;
+}
+.centry h1{
+    padding: 15px 0;
+}
+.centra{
+    display: flex;
+    justify-content: space-between;
+}
+.centry span{
+    background-color:#dedfd6;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.centra button{
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    color: black;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.centra button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+/* _________________________ */
+
+.cen{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+}
+.cenory{
+    width: 31%;
+    box-shadow: 1px 1px 2px 2px rgb(222, 218, 218);
+    border-radius: 10px;
+}
+.mehr{
+    padding: 15px;
+}
+.cenory img{
+    width: 100%;
+}
+.mehri{
+    background-color:#d1d5b1;
+    padding: 5px 18px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.mehr h2{
+    padding: 10px 0;
+}
+.mehr p{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+/* ___________________________________ */
+.end{
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+}
+.endl{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.endl img{
+    width: 80px;
+    height: 25px;
+}
+.endlin p{
+    padding: 5px 0;
+}
+
+.subscribe p{
+    padding: 12px 0;
+}
+.subscribe input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 192, 192);
+}
+
+.subscribe button{
+    background-color: #CF6F49;
+    color: white;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.subscribe button:hover{
+    background-color:hsl(59, 81%, 63%);
+    color: rgb(62, 66, 72);
+}
+/* ___________________________ */
+
+.jambast{
+    width: 100%;
+    margin: auto;
+    background-color: #F5F5F2;
+    padding: 15px 0;
+}
+.tamom{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

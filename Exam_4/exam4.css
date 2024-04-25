@@ -1,0 +1,768 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.section1 {
+  width: 100%;
+  margin: auto;
+  background-image: url(./backraund.png);
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.section1 .iconka {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.section1 .iconka .header {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .iconka .header .main {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 35px;
+}
+.section1 .iconka .header .main a {
+  text-decoration: none;
+  color: white;
+}
+.section1 .iconka .header img {
+  width: 6%;
+}
+.section1 .iconka .header button {
+  background-image: url(./backraund.png);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 25px;
+  border: 1px solid rgb(92, 23, 205);
+  cursor: pointer;
+}
+.section1 .iconka .header button:hover {
+  background-image: none;
+  background-color: rgb(209, 204, 204);
+  color: black;
+}
+.section1 .iconka i {
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.section1 .iconka i:hover {
+  color: rgb(134, 129, 129);
+}
+.section1 .batton {
+  width: 83%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 50px;
+  color: white;
+}
+.section1 .batton .text {
+  width: 40%;
+}
+.section1 .batton .text h1 {
+  font-size: 50px;
+}
+.section1 .batton img {
+  width: 60%;
+  margin-right: -45px;
+}
+.section1 .ollputin {
+  width: 84%;
+  margin: auto;
+}
+.section1 .ollputin .input {
+  width: 40%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: -230px;
+}
+.section1 .ollputin .input .para {
+  width: 49%;
+  margin: auto;
+  text-align: start;
+  color: rgb(164, 158, 158);
+}
+.section1 .ollputin .input .para button {
+  margin-top: 30px;
+  background-color: rgb(56, 109, 244);
+  padding: 8px 45px;
+  border: 0;
+  color: wheat;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.section1 .ollputin .input .para button:hover {
+  background-color: rgb(208, 198, 198);
+  color: black;
+}
+.section1 .ollputin .input .poro {
+  color: white;
+}
+.section1 .ollputin .input .br {
+  padding-left: 10px;
+}
+.section1 .bottom {
+  width: 83%;
+  padding-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .bottom .botink i {
+  background-color: rgb(56, 109, 244);
+  padding: 7px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.section1 .bottom .botink i:hover {
+  background-color: rgb(208, 198, 198);
+  color: black;
+}
+.section1 .bottom .botpa {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  gap: 15px;
+  align-items: center;
+}
+.section1 .bottom .botpa .pad {
+  color: rgb(143, 140, 140);
+  border-bottom: 1px solid rgb(143, 140, 140);
+}
+.section1 .bottom .botpa p {
+  border-bottom: 1px solid white;
+  padding: 5px 120px;
+}
+
+.section2 {
+  width: 100%;
+  margin: auto;
+  padding: 80px 0;
+}
+.section2 .sarlavha {
+  width: 86%;
+  margin: auto;
+}
+.section2 .sarlavha .sar {
+  width: 98%;
+  margin: auto;
+  align-items: end;
+}
+.section2 .sarlavha .sar h1 {
+  width: 40%;
+}
+.section2 .sarlavha .sar p {
+  width: 43%;
+  border-left: 1px solid rgb(223, 222, 222);
+  padding: 0 15px;
+  margin: 25px 280px;
+}
+.section2 .sarlavha .nug {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding-top: 35px;
+}
+.section2 .sarlavha .nug .dom {
+  width: 33%;
+  margin: auto;
+  height: 300px;
+  border: 1px solid rgb(237, 234, 234);
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
+.section2 .sarlavha .nug .dom img {
+  width: 50%;
+}
+.section2 .sarlavha .nug .dom h4 {
+  text-align: start;
+  padding-top: 20px;
+}
+.section2 .sarlavha .nug p {
+  text-align: start;
+  padding-top: 20px;
+  color: grey;
+}
+
+.section3 {
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;
+  text-align: end;
+}
+.section3 .index {
+  width: 85%;
+  margin: auto;
+}
+.section3 .index .olam {
+  width: 40%;
+  text-align: start;
+}
+.section3 .index .olam h1 {
+  padding-bottom: 40px;
+}
+.section3 .index .olam img {
+  padding-top: 40px;
+  width: 30%;
+  height: 50px;
+}
+.section3 .sart {
+  margin-top: -230px;
+}
+
+.section4 {
+  width: 100%;
+  margin: auto;
+  background-image: url(./backraund2.png);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.section4 .ollbig {
+  width: 88%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.section4 .ollbig .big {
+  width: 25%;
+  margin: auto;
+  color: rgb(81, 80, 80);
+  border: 1px solid rgb(81, 80, 80);
+  padding: 30px;
+}
+.section4 .ollbig .big .pad {
+  padding: 25px 0;
+}
+.section4 .ollbig .big p sub {
+  font-size: 40px;
+}
+.section4 .ollbig .big button {
+  margin-top: 35px;
+  background-image: url(./backraund2.png);
+  background-repeat: no-repeat;
+  color: rgb(81, 80, 80);
+  border: 1px solid rgb(56, 109, 244);
+  padding: 10px 80px;
+  border-radius: 5px;
+}
+.section4 .ollbig .big button:hover {
+  background-image: none;
+  background-color: rgb(81, 80, 80);
+  color: white;
+}
+.section4 .ollbig .bigmo {
+  color: white;
+  border: 1px solid white;
+}
+.section4 .ollbig .bigmo button {
+  color: white;
+  background-image: none;
+  background-color: rgb(56, 109, 244);
+}
+
+.section4 h1 {
+  color: white;
+  padding-left: 95px;
+  padding-top: 80px;
+}
+
+.section5 {
+  width: 100%;
+  margin: auto;
+  padding: 80px 0;
+}
+.section5 .sarlavhanamo {
+  width: 86%;
+  margin: auto;
+}
+.section5 .sarlavhanamo .sarash {
+  width: 98%;
+  margin: auto;
+  align-items: end;
+}
+.section5 .sarlavhanamo .sarash h1 {
+  width: 40%;
+}
+.section5 .sarlavhanamo .nugash {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding-top: 35px;
+}
+.section5 .sarlavhanamo .nugash .doma {
+  width: 33%;
+  margin: auto;
+  height: 350px;
+  border: 1px solid rgb(237, 234, 234);
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
+.section5 .sarlavhanamo .nugash .doma img {
+  width: 40%;
+}
+.section5 .sarlavhanamo .nugash .doma button {
+  margin-left: -200px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(56, 78, 133);
+  color: white;
+  border: 0;
+  margin-top: 15px;
+  font-size: 10px;
+}
+.section5 .sarlavhanamo .nugash .doma h4 {
+  text-align: start;
+  padding: 20px 0;
+}
+.section5 .sarlavhanamo .nugash .doma p {
+  text-align: start;
+  color: gray;
+}
+.section5 .sarlavhanamo .pai {
+  text-align: end;
+  padding: 20px 0;
+}
+.section5 .sarlavhanamo .pai a,
+.section5 .sarlavhanamo i {
+  text-decoration: none;
+  color: #4576c9;
+  text-align: end;
+}
+
+.section6 {
+  width: 100%;
+  margin: auto;
+}
+.section6 .kalon {
+  width: 84%;
+  margin: auto;
+}
+.section6 .kalon .ollsmall {
+  margin-top: 50px;
+  width: 67%;
+  padding-left: 370px;
+}
+.section6 .kalon .ollsmall .small {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(228, 227, 227);
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.section6 .kalon .ollsmall .small .small1 {
+  width: 25%;
+}
+.section6 .kalon .ollsmall .small .small2 {
+  width: 58%;
+  margin: auto;
+}
+.section6 .kalon .ollsmall .small .small2 button {
+  background-color: rgb(56, 78, 133);
+  border: 0;
+  padding: 5px 15px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 15px;
+}
+.section6 .kalon .ollsmall .paiv {
+  text-align: end;
+  padding: 35px 0;
+}
+.section6 .kalon .ollsmall .paiv a {
+  text-decoration: none;
+  color: #4576c9;
+}
+
+.section7 {
+  width: 100%;
+  margin: auto;
+  background-image: url(./backraund2.png);
+  background-repeat: no-repeat;
+}
+.section7 .end {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  color: white;
+  gap: 35px;
+  align-items: start;
+}
+.section7 .end .first {
+  width: 35%;
+  margin: auto;
+}
+.section7 .end .first h3,
+.section7 .end p {
+  padding: 15px 0;
+}
+.section7 .end .first a {
+  text-decoration: none;
+  color: rgb(83, 172, 255);
+  padding: 15px 0;
+}
+.section7 .end .first img {
+  padding: 15px 0;
+}
+.section7 .end .first .gred {
+  color: gray;
+  padding-top: 10px;
+}
+.section7 .end .second {
+  padding-left: 120px;
+  width: 32%;
+  margin: auto;
+  padding-top: 15px;
+}
+.section7 .end .second h3,
+.section7 .end p {
+  padding: 8px 0;
+}
+.section7 .end .third {
+  width: 35%;
+  margin: auto;
+  margin-top: 25px;
+}
+.section7 .end .third input {
+  padding: 20px 10px;
+  width: 90%;
+  margin: auto;
+  margin: 5px 0;
+  margin-bottom: 20px;
+}
+.section7 .end .third button {
+  width: 98%;
+  margin: auto;
+  padding: 20px 15px;
+  background-color: rgb(56, 109, 244);
+  color: white;
+  border: 0;
+}
+.section7 .end .third button:hover {
+  background-color: rgb(97, 96, 96);
+  color: white;
+}
+
+.pinhon {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .section1 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .section1 .iconka {
+    width: 94%;
+    margin: auto;
+  }
+  .section1 .iconka .header img,
+  .section1 .iconka button {
+    display: none;
+  }
+  .section1 .iconka .main a {
+    display: none;
+  }
+  .section1 .iconka i {
+    display: block;
+    font-size: 25px;
+  }
+  .section1 .batton {
+    width: 94%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .section1 .batton .text {
+    width: 100%;
+    margin: auto;
+    margin-top: -10;
+    align-items: center;
+  }
+  .section1 .batton .text h1 {
+    width: 60%;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .section1 .batton img {
+    width: 88%;
+  }
+  .section1 .ollputin {
+    width: 90%;
+    margin: auto;
+    align-items: start;
+    margin-top: -30px;
+  }
+  .section1 .ollputin .input {
+    width: 100%;
+    margin: auto;
+    margin: 0;
+    align-items: start;
+  }
+  .section1 .ollputin .input .para {
+    margin-left: 15px;
+  }
+  .section1 .ollputin .input .para button {
+    padding: 8px 35px;
+  }
+  .section1 .ollputin .input .br {
+    display: none;
+  }
+  .section1 .bottom {
+    width: 100%;
+    margin: auto;
+  }
+  .section1 .bottom .botink i {
+    display: none;
+  }
+  .section1 .bottom .botpa {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 60px;
+    background-image: url(./backraund.png);
+  }
+  .section1 .bottom .botpa p {
+    border-bottom: 1px solid white;
+    padding: 5px 50px;
+    gap: 5px;
+  }
+  .section2 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha {
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha .sar {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha .sar h1 {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha .sar p {
+    display: none;
+  }
+  .section2 .sarlavha .nug {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha .nug .dom {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  .section2 .sarlavha .nug .dom h4,
+  .section2 .sarlavha .nug p {
+    font-size: 30px;
+  }
+  .section3 {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+    margin: 40px 0;
+    padding: 40px 0;
+    font-size: 20px;
+  }
+  .section3 .index {
+    width: 88%;
+    margin: auto;
+  }
+  .section3 .index .olam {
+    width: 100%;
+    margin: auto;
+  }
+  .section3 .index .olam p {
+    font-size: 34px;
+  }
+  .section3 .index .olam img {
+    width: 45%;
+    height: 60px;
+  }
+  .section3 .sart {
+    display: none;
+  }
+  .section4 {
+    width: 100%;
+    margin: auto;
+    background-image: url(./backraund2.png);
+    background-repeat: repeat;
+    margin-top: -40px;
+    flex-direction: column;
+  }
+  .section4 .ollbig {
+    width: 96%;
+    margin: auto;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 35px;
+  }
+  .section4 .ollbig .big {
+    width: 80%;
+    margin: auto;
+  }
+  .section4 .ollbig .big button {
+    font-size: 35px;
+  }
+  .section4 h1 {
+    padding-left: 35px;
+    padding-top: 35px;
+    font-size: 45px;
+  }
+  .section5 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+  .section5 .sarlavhanamo {
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section5 .sarlavhanamo .sarash {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section5 .sarlavhanamo .sarash h1 {
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .section5 .sarlavhanamo .nugash {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .section5 .sarlavhanamo .nugash .doma {
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    box-sizing: border-box;
+  }
+  .section5 .sarlavhanamo .nugash .doma button {
+    font-size: 20px;
+    margin-left: -290px;
+  }
+  .section5 .sarlavhanamo .nugash .doma h4,
+  .section5 .sarlavhanamo .nugash p {
+    font-size: 30px;
+  }
+  .section6 {
+    width: 100%;
+  }
+  .section6 .kalon {
+    width: 87%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .section6 .kalon .ollsmall {
+    width: 100%;
+    padding-left: 0;
+    flex-direction: column;
+  }
+  .section6 .kalon .ollsmall .small {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .section6 .kalon .ollsmall .small .small1 {
+    width: 100%;
+    margin: auto;
+  }
+  .section6 .kalon .ollsmall .small .small2 {
+    width: 100%;
+    margin: auto;
+  }
+  .section7 {
+    display: none;
+  }
+  .pinhon {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-image: url(./backraund2.png);
+    color: white;
+    padding: 30px 0;
+  }
+  .pinhon .okhir {
+    width: 88%;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .pinhon .okhir p {
+    padding: 5px 0;
+  }
+  .pinhon .okhiron {
+    width: 88%;
+    margin: auto;
+    padding: 10px 0;
+  }
+  .pinhon .okhiron a {
+    text-decoration: none;
+    color: rgb(83, 172, 255);
+  }
+  .pinhon .okhiron p {
+    padding: 10px 0;
+  }
+  .pinhon .okhiron img {
+    padding-top: 10px;
+  }
+  .pinhon .okhiron .gredin {
+    color: gray;
+  }
+}/*# sourceMappingURL=exam4.css.map */
